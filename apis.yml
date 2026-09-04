@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://wesabe.com', status: 301, note: 'declared website redirects to https://due.com/ — a different registrable domain (wesabe.com -> due.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wesabe.png
 name: Wesabe
 description: Wesabe is a company surfaced as a portfolio company of union-square-ventures and added to
