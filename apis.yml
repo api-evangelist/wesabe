@@ -18,11 +18,13 @@ accessModel:
   public: false
   label: Unknown
   confidence: low
-  source: []
+  source:
+  - url: https://wesabe.com
+    status: 301
+    note: declared website redirects to https://due.com/ — a different registrable domain (wesabe.com
+      -> due.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)
   generated: '2026-07-22'
   method: derived
-  source:
-  - {url: 'https://wesabe.com', status: 301, note: 'declared website redirects to https://due.com/ — a different registrable domain (wesabe.com -> due.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wesabe.png
 name: Wesabe
 description: Wesabe is a company surfaced as a portfolio company of union-square-ventures and added to
@@ -37,15 +39,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 x-status: defunct
-x-status-note: 'Wesabe (personal finance / account aggregation startup) shut down in
-  July 2010. As of 2026-07-21 the wesabe.com domain 301-redirects to due.com, an unrelated
-  company; no Wesabe developer surface, API, or docs survive. Probed via curl (HTTP)
-  and dig (DNS). No API artifacts are derivable — this profile remains a historical
-  VC-portfolio record only.'
+x-status-note: Wesabe (personal finance / account aggregation startup) shut down in July 2010. As of 2026-07-21
+  the wesabe.com domain 301-redirects to due.com, an unrelated company; no Wesabe developer surface, API,
+  or docs survive. Probed via curl (HTTP) and dig (DNS). No API artifacts are derivable — this profile
+  remains a historical VC-portfolio record only.
 tags:
 - Company
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
